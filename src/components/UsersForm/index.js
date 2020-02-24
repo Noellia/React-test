@@ -3,6 +3,7 @@ import assign from 'lodash/assign';
 import get from 'lodash/get';
 import map from 'lodash/map';
 import {uploadUserInfo} from '@actions';
+import Component from './Component';
 
 
 const fields = [
