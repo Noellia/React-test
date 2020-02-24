@@ -5,6 +5,7 @@ import Home from '@components/Home';
 import Form from '@components/Form/';
 import Farm from '@components/FarmForm';
 import Error from '@components/Error';
+import User from '@components/UsersForm';
 import Footer from '../Footer';
 import Header from '../Header';
 
@@ -17,6 +18,8 @@ export default () => (
                     <Route exact path="/" component={Home}/>
                     <Route exact path="/app" component={Form}/>
                     <Route exact path='/farm' component={Farm}/>
+                    <Route exact path='/user' component={User}/>
+
                     <Route component={Error}/>
                 </Switch>
             </main>
